@@ -12,10 +12,10 @@ namespace DAO
         public static MySqlConnection GetConection()
         {
             var builder = new MySqlConnectionStringBuilder {
-            Server = "192.168.0.253",
-            Port = 4550,
-            UserID = "root",
-            Password = "T21nfr@--",
+            Server = "*",
+            Port = 0,
+            UserID = "*",
+            Password = "*",
             Database = "produtos"
             };
 
